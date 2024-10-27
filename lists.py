@@ -1,0 +1,9 @@
+list=[1,2,"Loki","Hi",8.9,0]
+print(list)
+print(list[1:3])
+list[0]=100
+print(list[0])
+list.append("Sword")
+print(list)
+list.pop()
+print(list)
