@@ -1,0 +1,15 @@
+pizza=int(input("Enter the number of pizzas:"))
+puffs=int(input("enter the number of puffs:"))
+cooldrink=int(input("enter the number of colldrinks:"))
+
+costofpizzas=(pizza*100)
+costofpuffs=(puffs*20)
+costofdrink=(cooldrink*10)
+print("Bill Details")
+print("no of pizzas bought:",pizza)
+print("no of puffs bought:",puffs)
+print("no of cooldrinks bought:",cooldrink)
+
+totalprice=(costofpizzas+costofpuffs+costofdrink)
+print("Totalprice:",totalprice)
+print("ENJOY THE SHOW....!!!!!")
