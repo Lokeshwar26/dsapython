@@ -1,4 +1,3 @@
-
 num = int(input("How many elements to be in the array? "))
 
 
